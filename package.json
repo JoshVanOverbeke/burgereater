@@ -1,28 +1,17 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "For eating those burgers!",
+  "description": "For eating tasty burgers",
   "main": "server.js",
+  "scripts": {
+    "test": "None",
+    "start": "node server.js"
+  },
+  "author": "Josh",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
     "express-handlebars": "^3.0.2",
     "mysql": "^2.16.0"
-  },
-  "devDependencies": {
-    "handlebars-helper-css": "^0.1.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JoshVanOverbeke/burger.git"
-  },
-  "author": "Josh",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JoshVanOverbeke/burger/issues"
-  },
-  "homepage": "https://github.com/JoshVanOverbeke/burger#readme"
+  }
 }
